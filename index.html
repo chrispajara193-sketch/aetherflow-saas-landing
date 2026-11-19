@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AetherFlow — AI Workflow & Focus Platform</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Navigation -->
+  <header class="navbar">
+    <div class="container nav-container">
+      <a href="#" class="logo">
+        <span class="logo-icon">✦</span> AetherFlow
+      </a>
+
+      <nav class="nav-links" id="navLinks" aria-label="Main Navigation">
+        <a href="#features">Features</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#faq">FAQ</a>
+        <a href="#contact" class="btn btn-primary btn-sm">Request Demo</a>
+      </nav>
+
+      <button class="menu-toggle" id="menuToggle" aria-label="Toggle Menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-content reveal">
+          <span class="badge">✨ New: AetherFlow 2.0 is live</span>
+          <h1>Ship faster without the <span class="gradient-text">workflow chaos.</span></h1>
+          <p class="hero-subtitle">
+            Unite your tasks, docs, and automated sprint updates in one calm, intelligent workspace designed for modern product teams.
+          </p>
+          <div class="hero-actions">
+            <a href="#contact" class="btn btn-primary">Start Free Trial</a>
+            <a href="#features" class="btn btn-secondary">Explore Features</a>
+          </div>
+          <p class="hero-note">No credit card required · 14-day free trial</p>
+        </div>
+
+        <!-- Pure CSS Interactive UI Mockup -->
+        <div class="hero-mockup reveal" aria-hidden="true">
+          <div class="mockup-window">
+            <div class="mockup-header">
+              <div class="dots"><span></span><span></span><span></span></div>
+              <span class="mockup-title">Sprint Overview — Q4 Release</span>
+            </div>
+            <div class="mockup-body">
+              <div class="mockup-stat-row">
+                <div class="stat-card">
+                  <span class="stat-label">Velocity</span>
+                  <strong class="stat-value">+34%</strong>
+                </div>
+                <div class="stat-card">
+                  <span class="stat-label">Tasks Done</span>
+                  <strong class="stat-value">128/140</strong>
+                </div>
+              </div>
+              <div class="mockup-task">
+                <span class="check done">✓</span>
+                <div class="task-text">
+                  <strong>Design System Tokens</strong>
+                  <small>UI/UX Team · Completed</small>
+                </div>
+                <span class="tag tag-green">Live</span>
+              </div>
+              <div class="mockup-task">
+                <span class="check active"></span>
+                <div class="task-text">
+                  <strong>Automated API Webhooks</strong>
+                  <small>Backend · In Review</small>
+                </div>
+                <span class="tag tag-purple">Priority</span>
+              </div>
+              <div class="progress-wrapper">
+                <div class="progress-meta">
+                  <span>Release Readiness</span>
+                  <span>91%</span>
+                </div>
+                <div class="progress-bar"><div class="progress-fill"></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Social Proof -->
+    <section class="logos-section">
+      <div class="container">
+        <p class="logos-title">Trusted by 2,500+ fast-moving product teams</p>
+        <div class="logos-grid">
+          <span>NORTHSTAR</span>
+          <span>KINETIC LABS</span>
+          <span>VERVE STUDIO</span>
+          <span>PULSECLOUD</span>
+          <span>ORBITAL</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Bento Grid Features -->
+    <section id="features" class="section">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag">Features</span>
+          <h2>Everything your team needs, minus the clutter</h2>
+          <p>Thoughtfully crafted tools that adapt to how you actually work.</p>
+        </div>
+
+        <div class="bento-grid">
+          <article class="bento-card bento-large reveal">
+            <div class="bento-icon">⚡</div>
+            <h3>Smart Triage & Auto-Routing</h3>
+            <p>Incoming bug reports and feature requests are automatically tagged, prioritized, and assigned to the right owner using context-aware rules.</p>
+            <div class="mini-pills">
+              <span>Auto-Tagging</span>
+              <span>Slack Sync</span>
+              <span>GitHub PR Links</span>
+            </div>
+          </article>
+
+          <article class="bento-card reveal">
+            <div class="bento-icon">🎯</div>
+            <h3>Deep Focus Mode</h3>
+            <p>Silence non-urgent notifications and surface only the top three tasks for your current sprint block.</p>
+          </article>
+
+          <article class="bento-card reveal">
+            <div class="bento-icon">📊</div>
+            <h3>Live Pulse Analytics</h3>
+            <p>Spot bottlenecks before deadlines slip with real-time cycle time charts and workload heatmaps.</p>
+          </article>
+
+          <article class="bento-card bento-wide reveal">
+            <div class="bento-icon">🔒</div>
+            <h3>Enterprise-Grade Security & Zero-Latency Sync</h3>
+            <p>Built on local-first architecture so every keystroke feels instantaneous, backed by SOC2 compliance and role-based permissions.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Interactive Pricing -->
+    <section id="pricing" class="section section-alt">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag">Pricing</span>
+          <h2>Simple, transparent pricing</h2>
+          <p>Switch plans or cancel anytime. No hidden fees.</p>
+
+          <!-- Billing Toggle -->
+          <div class="billing-toggle">
+            <span id="monthlyLabel" class="active-label">Monthly</span>
+            <label class="switch">
+              <input type="checkbox" id="billingToggle" aria-label="Toggle annual billing" />
+              <span class="slider"></span>
+            </label>
+            <span id="annualLabel">Annual <span class="save-badge">Save 20%</span></span>
+          </div>
+        </div>
+
+        <div class="pricing-grid">
+          <!-- Starter -->
+          <div class="pricing-card reveal">
+            <h3>Starter</h3>
+            <p class="plan-desc">For solo builders and small side projects.</p>
+            <div class="price-box">
+              <span class="currency">$</span>
+              <span class="price-amount" data-monthly="0" data-annual="0">0</span>
+              <span class="billing-period">/month</span>
+            </div>
+            <ul class="plan-features">
+              <li>✓ Up to 3 active projects</li>
+              <li>✓ Basic workflow automation</li>
+              <li>✓ 7-day activity history</li>
+            </ul>
+            <a href="#contact" class="btn btn-secondary btn-full select-plan-btn" data-plan="Starter ($0)">Get Started</a>
+          </div>
+
+          <!-- Pro (Highlighted) -->
+          <div class="pricing-card popular reveal">
+            <div class="popular-badge">Most Popular</div>
+            <h3>Pro Team</h3>
+            <p class="plan-desc">For growing teams shipping products weekly.</p>
+            <div class="price-box">
+              <span class="currency">$</span>
+              <span class="price-amount" data-monthly="24" data-annual="19">24</span>
+              <span class="billing-period">/user/mo</span>
+            </div>
+            <ul class="plan-features">
+              <li>✓ Unlimited projects & docs</li>
+              <li>✓ AI Smart Triage & GitHub Sync</li>
+              <li>✓ Unlimited history & analytics</li>
+              <li>✓ Priority 24/7 support</li>
+            </ul>
+            <a href="#contact" class="btn btn-primary btn-full select-plan-btn" data-plan="Pro Team">Start 14-Day Trial</a>
+          </div>
+
+          <!-- Enterprise -->
+          <div class="pricing-card reveal">
+            <h3>Scale</h3>
+            <p class="plan-desc">Custom security and dedicated onboarding.</p>
+            <div class="price-box">
+              <span class="currency">$</span>
+              <span class="price-amount" data-monthly="59" data-annual="47">59</span>
+              <span class="billing-period">/user/mo</span>
+            </div>
+            <ul class="plan-features">
+              <li>✓ Everything in Pro Team</li>
+              <li>✓ SAML SSO & Audit Logs</li>
+              <li>✓ Dedicated Success Manager</li>
+            </ul>
+            <a href="#contact" class="btn btn-secondary btn-full select-plan-btn" data-plan="Scale Enterprise">Contact Sales</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ Accordion -->
+    <section id="faq" class="section">
+      <div class="container container-sm">
+        <div class="section-header reveal">
+          <span class="section-tag">FAQ</span>
+          <h2>Frequently asked questions</h2>
+        </div>
+
+        <div class="faq-list reveal">
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false">
+              <span>How long does it take to migrate from Jira or Trello?</span>
+              <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-answer">
+              <p>Less than 5 minutes. Our one-click importer pulls in your boards, tags, assignees, and attachments automatically without breaking links.</p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false">
+              <span>Can I switch between monthly and annual billing later?</span>
+              <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-answer">
+              <p>Yes! You can upgrade, downgrade, or switch billing cycles directly from your workspace settings at any time with prorated adjustments.</p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false">
+              <span>Do you offer discounts for students or nonprofits?</span>
+              <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-answer">
+              <p>Absolutely. Verified educational institutions and registered nonprofits receive 50% off all Pro Team plans.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact / Demo Form (Connected to code.gs) -->
+    <section id="contact" class="section section-alt">
+      <div class="container container-sm">
+        <div class="contact-card reveal">
+          <div class="section-header">
+            <span class="section-tag">Get Early Access</span>
+            <h2>Book a personalized demo</h2>
+            <p>Leave your details below and we’ll set up a tailored sandbox for your team.</p>
+          </div>
+
+          <form id="contactForm" class="contact-form" novalidate>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="fullName">Full Name *</label>
+                <input type="text" id="fullName" name="name" placeholder="Alex Rivera" required />
+              </div>
+              <div class="form-group">
+                <label for="email">Work Email *</label>
+                <input type="email" id="email" name="email" placeholder="alex@company.com" required />
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="planSelect">Plan of Interest</label>
+              <select id="planSelect" name="plan">
+                <option value="Starter ($0)">Starter ($0/mo)</option>
+                <option value="Pro Team" selected>Pro Team</option>
+                <option value="Scale Enterprise">Scale Enterprise</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="message">Team Size or Goals (Optional)</label>
+              <textarea id="message" name="message" rows="3" placeholder="Tell us a bit about your workflow..."></textarea>
+            </div>
+
+            <button type="submit" id="submitBtn" class="btn btn-primary btn-full">
+              <span class="btn-text">Request Access</span>
+              <span class="spinner" hidden></span>
+            </button>
+
+            <div id="formStatus" class="form-status" role="alert" aria-live="polite"></div>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <div>
+        <a href="#" class="logo"><span class="logo-icon">✦</span> AetherFlow</a>
+        <p class="footer-copy">© 2026 AetherFlow Inc. Built as a UI/UX Portfolio Showcase.</p>
+      </div>
+      <div class="footer-links">
+        <a href="#features">Features</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#faq">FAQ</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
